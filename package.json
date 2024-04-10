@@ -20,7 +20,7 @@
     "vite": "^5.2.0"
   },
   "lint-staged": {
-    "*": "npm run format"
+    "*.{ts,css}": "npm run format"
   },
   "dependencies": {
     "vanjs-core": "^1.5.0"
